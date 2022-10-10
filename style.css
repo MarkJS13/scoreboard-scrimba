@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    color: white
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    background: url('https://mobwallpapershd.com/wp-content/uploads/2022/05/NBA-Images-Wallpaper.jpg');
+    background-size: cover;
+
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.scoreboard h3{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    width: 100px;
+
+}
+
+
+.ahead-score {
+    color: rgba(255, 0, 0, 0.411);
+
+}
+
+
+.scoreboard .number{
+    font-family: 'Verdana';
+    width: 155px;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.411);
+    border-radius: 10px;
+    padding-top: 0;
+    margin: 0;
+}
+
+.scoreboard .number p{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    font-size: 70px;
+}
+
+.increase-score {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    column-gap: 8px;
+}
+
+.increase-score button {
+    padding: 8px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #1B244A;
+    border: 1px solid #1B244A;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.356);
+}
+
+.minus-home {
+    display: flex;
+    justify-content: center;
+}
+
+.minus-home p{
+    cursor: pointer;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid #1B244A;
+    width: 50px;
+    color: #1B244A;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.356);
+}
+
+
+.minus-guest {
+    display: flex;
+    justify-content: center;
+}
+
+.minus-guest p{
+    cursor: pointer;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid #1B244A;
+    color: #1B244A;
+    width: 50px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.356);
+}
+
+.reset {
+    position: absolute;
+    bottom: 20%;
+}
+
+.reset button {
+    padding: 8px 25px;
+    border-radius: 4px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, 0.356);
+}
